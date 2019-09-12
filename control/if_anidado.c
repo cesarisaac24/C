@@ -10,8 +10,17 @@ int main()
     scanf( "%f", &n2 );
     printf( "%s","Introduzca el primer número: ");
     scanf( "%f", &n3 );
-
-    if ( n1 >= n2 && n1 >= n3 ){
+    
+    if {
+    (n1 == n2 && n2 == n3) 
+	
+	  
+	printf ("todos son inguales")}
+    
+	else {
+	if ( n1 >= n2 && n1 >= n3 )
+	}
+	{
         printf( "\n   %f es el mayor.", n1 );
     }else{
 
@@ -20,6 +29,7 @@ int main()
 	}else{
             printf( "\n   %f es el mayor.", n3 );
 	}
+	
     }
 
     return 0;

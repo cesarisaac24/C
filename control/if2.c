@@ -7,19 +7,23 @@ int main()
 
 	if (edad >17 && edad <35)
 	{
-		 printf("Tienes %d anios, eres mayor de edad",edad);
+		 printf("Tienes %d años, eres mayor de edad",edad);
 	}
-	else if (edad < 17)
+	else if (edad < 18)
 	{
-		 printf("Tienes %d anios, eres menor de edad",edad);
+		 printf("Tienes %d años, eres menor de edad",edad);
 	}
-	else if (edad >= 35)
+	else if (edad >= 35 && edad <=110)
+	
+		 printf("Tienes %d años, eres chavo-ruco",edad);
+    
+	else if (edad >= 110)
 	{
-		 printf("Tienes %d anios, eres chavo-ruco",edad);
+		 printf("Tienes %d años, eres un vampiro",edad);
 	}
 	else
 	{
-		 printf("Tienes %d anios, ",edad);
+		 printf("Tienes %d años, ",edad);
 	}
   return 0;
 } 	
