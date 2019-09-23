@@ -5,7 +5,7 @@ int main()
 	int opcion, a, b, c;
 	printf("Dame un numero:\n");
 	scanf("%d",&a);
-	printf("Dame un segundo2 numero:\n");
+	printf("Dame un segundo numero:\n");
 	scanf("%d",&b);
 	printf("Elige una opcion:");
 	printf("\t 1.- Suma:\n");

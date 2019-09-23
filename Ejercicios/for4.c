@@ -6,10 +6,14 @@
 int main(void)
 {
   int x,y,z,cont;
- 
-  for (x=0;x<=5;x++){
+  z=1;
+
+  for (x-3;x<=5;x++){
   	for (y=0;y<=5;y++){
-     		 printf("\t[%d,%d]",x,y);
+  		if(x==y)
+  		z=0;
+     		 printf("[%d]\t",z);
+		 z++;
   	}
      	printf("\n");
   }

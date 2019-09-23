@@ -19,7 +19,7 @@ int main()
 	     printf( "El opuesto es: %d\n", -n );
 	     //a += n;
 	      a = a + n;
-	      continue;
+	      n++;
       }
 
    printf( "Suma: %d", a );

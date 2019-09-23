@@ -7,9 +7,13 @@ int main(void)
 {
   int x,y,z,cont;
   z=1;
+
   for (x=0;x<=5;x++){
   	for (y=0;y<=5;y++){
-     		 printf("[%d]",z);
+  		if (x==y){
+  			z=0;
+		  }
+     		 printf("[%d]\t",z);
 		 z++;
   	}
      	printf("\n");
