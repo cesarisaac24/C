@@ -21,7 +21,7 @@ int main(void)
 
 void sumar_referencia(int *numero)
 {
-	*numero += 1; /* le sumamos 1 al numero */
+	*numero += 2; /* le sumamos 1 al numero */
 
 	printf("\nValor de numero dentro sumar_referencia() es: %d", *numero);
 
