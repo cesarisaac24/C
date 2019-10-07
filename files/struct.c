@@ -14,7 +14,7 @@ int main()
 * "a" : abrir un archivo para escritura al final del contenido, si no existe se crea.
 * "r+" : abrir un archivo para lectura y escritura, el fichero debe existir.
 * "w+" : crear un archivo para lectura y escritura, se crea si no existe o se sobreescribe si existe.
-* "r+b ó rb+" : Abre un archivo en modo binario para actualización (lectura y escritura).
+* "r+b ó rb+" : Abre un archivo en modo binario para actualizacion (lectura y escritura).
 * "rb" : Abre un archivo en modo binario para lectura.
  */
  
@@ -38,6 +38,7 @@ int main()
          puts("Ciudad:");
  	 fgets(persona[i].ciudad, 20 , stdin);
          fputs(persona[i].ciudad, fichero);
+         
       }
    }
    fclose(fichero);
